@@ -1,0 +1,12 @@
+{
+	"Set Methods": {
+		"methods": [
+			"getDifference",
+			"getIntersection",
+			"getSymmetricDifference",
+			"getUnion",
+			"isSuperset"
+		]
+	},
+	"trash": {}
+}

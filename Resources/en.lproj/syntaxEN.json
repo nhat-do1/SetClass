@@ -1,0 +1,196 @@
+{
+	"_method_": {
+		"getSymmetricDifference": {
+			"Syntax": "**getSymmetricDifference**( *setA* : cs.Hash.Set; *setB* : cs.Hash.Set ) : cs.Hash.Set",
+			"Params": [
+				[
+					"setA",
+					"cs.Hash.Set",
+					"->"
+				],
+				[
+					"setB",
+					"cs.Hash.Set",
+					"->"
+				],
+				[
+					"",
+					"cs.Hash.Set",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"isSuperset": {
+			"Syntax": "**isSuperset**( *setA* : cs.Hash.Set; *setB* : cs.Hash.Set ) : Boolean",
+			"Params": [
+				[
+					"setA",
+					"cs.Hash.Set",
+					"->"
+				],
+				[
+					"setB",
+					"cs.Hash.Set",
+					"->"
+				],
+				[
+					"",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getDifference": {
+			"Syntax": "**getDifference**( *setA* : cs.Hash.Set; *setB* : cs.Hash.Set ) : cs.Hash.Set",
+			"Params": [
+				[
+					"setA",
+					"cs.Hash.Set",
+					"->"
+				],
+				[
+					"setB",
+					"cs.Hash.Set",
+					"->"
+				],
+				[
+					"",
+					"cs.Hash.Set",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getUnion": {
+			"Syntax": "**getUnion**( *setA* : cs.Hash.Set; *setB* : cs.Hash.Set ) : cs.Hash.Set",
+			"Params": [
+				[
+					"setA",
+					"cs.Hash.Set",
+					"->"
+				],
+				[
+					"setB",
+					"cs.Hash.Set",
+					"->"
+				],
+				[
+					"",
+					"cs.Hash.Set",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getIntersection": {
+			"Syntax": "**getIntersection**( *setA* : cs.Hash.Set; *setB* : cs.Hash.Set ) : cs.Hash.Set",
+			"Params": [
+				[
+					"setA",
+					"cs.Hash.Set",
+					"->"
+				],
+				[
+					"setB",
+					"cs.Hash.Set",
+					"->"
+				],
+				[
+					"",
+					"cs.Hash.Set",
+					"<-"
+				]
+			],
+			"Summary": ""
+		}
+	},
+	"cs.Hash": {
+		"Set": {
+			"new()": {
+				"Syntax": "**.new**( *param* : Collection )",
+				"Params": [
+					[
+						"param",
+						"Collection",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		}
+	},
+	"Set": {
+		"clear()": {
+			"Syntax": "**.clear**() : cs.Hash.Set",
+			"Params": [
+				[
+					"",
+					"cs.Hash.Set",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"collection()": {
+			"Syntax": "**.collection**()->coll : Collection",
+			"Params": [
+				[
+					"coll",
+					"Collection",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"delete()": {
+			"Syntax": "**.delete**( *item* : Variant ) : cs.Hash.Set",
+			"Params": [
+				[
+					"item",
+					"Variant",
+					"->"
+				],
+				[
+					"",
+					"cs.Hash.Set",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"add()": {
+			"Syntax": "**.add**( *item* : Variant ) : cs.Hash.Set",
+			"Params": [
+				[
+					"item",
+					"Variant",
+					"->"
+				],
+				[
+					"",
+					"cs.Hash.Set",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"has()": {
+			"Syntax": "**.has**( *item* : Variant ) : Boolean",
+			"Params": [
+				[
+					"item",
+					"Variant",
+					"->"
+				],
+				[
+					"",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		}
+	}
+}
